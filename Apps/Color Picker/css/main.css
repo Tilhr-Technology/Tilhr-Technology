@@ -1,0 +1,50 @@
+/* //////////////////////////////////////////////////////
+
+    Tilhr Technology - Color Picker
+    Version: 1.0
+
+    Origional Template DESIGNED & DEVELOPED by Webelite
+    YouTube: https://www.youtube.com/watch?v=-55GRq-hUyE;
+
+    Website:        https://tilhr.tech
+    Email:          tilhr@tilhr.tech
+    Twitter:        http://twitter.com/tilhr_tech
+    GitHub:         https://github.com/tilhr/Tilhr-Technology
+
+    Developer: Tyler Rodgers [https://tylerrodgers.space]
+    Twitter:        http://twitter.com/tilhr
+        
+//////////////////////////////////////////////////////*/
+
+/*[ FONT ]*/
+@font-face {
+  font-family: OpenSans-Regular;
+  src: url('../fonts/OpenSans/OpenSans-Regular.ttf'); 
+}
+
+/*[ RESTYLE TAG ]*/
+body{
+    font-family: "Helvetica Neue", Helvetica;
+}
+.picker{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 720px;
+    height: 180px;
+}
+#display{
+    width: 100%;
+    height: 100px;
+    background: #730aa2;
+    transition: background 100ms;
+    margin-top: 30px;
+    border: 1px solid #000;
+}
+input{
+    display: block;
+    width: 100%;
+}
