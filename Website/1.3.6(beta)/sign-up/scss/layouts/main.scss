@@ -1,0 +1,166 @@
+@mixin hideInput {width: 0; height: 0; position: absolute; left: -9999px;}
+@mixin focusOutline {outline: dotted 1px #CCC; outline-offset: .45rem;}
+
+.sign-up-content {
+    padding: 40px 60px 32px 60px;
+    position: relative;
+    z-index: 99;
+}
+
+.form-radio {
+    margin: 0 -10px;
+    margin-bottom: 40px;
+    input {
+        @include hideInput;
+    }
+	input + label {
+        margin: 0 8px;
+        padding: 11px 31px;
+        box-sizing: border-box;
+		position: relative; display: inline-block;
+        border: solid 2px #ebebeb; 
+        background-color: #FFF;
+        font-size: 14px; 
+        font-weight: 600; 
+        color: #888;
+        text-align: center;
+		transition: 	border-color .15s ease-out, 
+					color .25s ease-out, 
+					background-color .15s ease-out,
+                    box-shadow .15s ease-out;
+        @include border-radius(5px);
+    }
+	input:checked + label {
+		background-color: $blue-color;
+		color: #FFF;
+		border-color: $blue-color;
+        z-index: 1;
+    }
+    input:focus + label {
+        outline: none;
+    }
+    input:hover {
+		background-color: $blue-color;
+		color: #FFF;
+		border-color: $blue-color;
+    }
+}
+
+input {
+    border: solid 2px #ebebeb;
+    box-sizing: border-box;
+    width: 100%;
+    // @include border-radius(5px);
+    font-weight: 700;
+    font-size: 14px;
+    font-family: Poppins;
+    padding: 16px 30px 16px 140px;
+}
+.form-textbox {
+    position: relative;
+    label {
+        position: absolute;
+        left: 28px;
+        top: 50%;
+        @include transform(translateY(-50%));
+        font-weight: 600;
+        color: #888;
+        font-size: 14px;
+    }
+}
+#name {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+#pass {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#email {
+    border: none;
+    border-left: solid 2px #ebebeb;
+    border-right: solid 2px #ebebeb;
+}
+input[type=checkbox]:not(old){
+    width     : 2em;
+    margin    : 0;
+    padding   : 0;
+    font-size : 1em;
+    display: none;
+  }
+  input[type=checkbox]:not(old) + label{
+      display      : inline-block;
+      margin-top: 27px;
+      margin-bottom: 45px;
+  }
+  input[type=checkbox]:not(old) + label > span{
+    display          : inline-block;
+    width            : 12px;
+    height           : 12px;
+    margin-right: 15px;
+    margin-bottom: 5px;
+    border           : 2px solid #ebebeb;
+    @include border-radius(2px);
+    background       : rgb(255,255,255);
+    background-image :    -moz-linear-gradient(rgb(255,255,255),rgb(255,255,255));
+    background-image :     -ms-linear-gradient(rgb(255,255,255),rgb(255,255,255));
+    background-image :      -o-linear-gradient(rgb(255,255,255),rgb(255,255,255));
+    background-image : -webkit-linear-gradient(rgb(255,255,255),rgb(255,255,255));
+    background-image :         linear-gradient(rgb(255,255,255),rgb(255,255,255 ));
+    vertical-align   : bottom;
+  }
+  input[type=checkbox]:not(old):checked + label > span,{
+      background-image :    -moz-linear-gradient(rgb(255,255,255),rgb(255,255,255));
+      background-image :     -ms-linear-gradient(rgb(255,255,255),rgb(255,255,255));
+      background-image :      -o-linear-gradient(rgb(255,255,255),rgb(255,255,255));
+      background-image : -webkit-linear-gradient(rgb(255,255,255),rgb(255,255,255));
+      background-image :         linear-gradient(rgb(255,255,255),rgb(255,255,255 ));
+  }
+  input[type=checkbox]:not(old):checked + label > span:before{
+      content     : '\f26b';
+      display     : block;
+      color       : $black-color;
+      font-size   : 11px;
+      line-height : 1.1;
+      text-align  : center;
+      font-family: 'Material-Design-Iconic-Font';
+      font-weight: bold;
+}
+.label-agree-term {
+    color: #888;
+}
+.term-service {
+    color: $blue-color;
+    text-decoration: none;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+.submit {
+    background: $blue-color;
+    color: #FFF;
+    border: none;
+    padding: 15px 20px;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: Poppins;
+    @include border-radius(5px);
+    &:hover {
+        background: darken($blue-color, 10%);
+    }
+}
+.loginhere {
+    text-align: center;
+    color: #888;
+    margin-top: 63px;
+}
+.loginhere-link {
+    color: $blue-color;
+    text-decoration: none;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px white inset;
+}
