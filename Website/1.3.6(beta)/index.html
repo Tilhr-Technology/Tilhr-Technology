@@ -149,14 +149,25 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					</div>
 					<div class="col-sm-8 author-name">
 						<h2 class="heading wow animated fadeInUp">A message to you!</h2>
-						<h4 class="subheading muted wow animated fadeInUp">$newUser<br>
-						4.15.20<br> <b>“If at first you don't succeed; <br>call it version 1.0”</b></h4>
+						<h4 class="subheading muted wow animated fadeInUp">
+						<br>
+						<script type="text/javascript">
+						    var d = new Date();
+
+						    var weekday=new Array("Sunday","Monday","Tuesday","Wednesday","Thursday",
+						                "Friday","Saturday");
+						    var monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+
+						    document.write(weekday[d.getDay()] + ", " +monthNames[d.getMonth()] + " " + d.getDay());
+						</script>
+						<br>
+						<b>“If at first you don't succeed; <br>call it version 1.0”</b></h4>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-12">
-						<h3 class="subheading gray wow animated fadeInUp">Our Story.</h3>
-						<p class="small muted-light wow animated fadeInUp"><b>Tilhr Technology</b> was first created testing some junk code for a school project. After seeing some success we furthered our proof of concept and came out with another version. We are proud to say that tilhr.tech is in the works to becoming a full fledged technology hub designed specifically for the tech community. The site is still in beta; updates will continue to roll out. After 1,000 users sign up, we will create a mobile app for tilhr.tech.<br> <br>There is no limit.<br>Enjoy.</p>
+						<h3 class="subheading gray wow animated fadeInUp">What is Tilhr Technology?</h3>
+						<p class="small muted-light wow animated fadeInUp"><b>Our website was first created testing some code for a school project</b>. After seeing very little success we furthered our proof of concept, released new versions, and started receiving positive feedback from the tech community. We are proud to say that <b>tilhr.tech</b> is in the works to becoming a full fledged <b>technology hub- designed specifically for developers & young learners</b>. Our website is still in <b>beta</b>. <br><br>Updates will continue to roll out.<br><b>After 1,000 users join, we will develop a mobile app for tilhr.tech.</b><br> <br>There is no limit ∞<br>Enjoy.</p>
 					</div>
 				</div>
 			</div> <!-- col-md-6 author -->
@@ -209,7 +220,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					<div class="location done">
 						<h4 class="heading wow animated fadeInUp">GDC 2020, <span class="light">San Francisco, CA</span></h4>
 					</div>
+
 				</div>
+				<a href="offline" class="btn btn-cyan" target="_blank">View Public Calendar</a>
 			</div>
 		</div>
 	</div>
@@ -244,7 +257,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				</div>
 				<div class="item">
 					<div class="review text-center wow animated fadeInUp">
-						<img src="img/2Dplatformer.png" class="reviewer-pic" alt="">
+						<img src="img/2D-platformer.png" class="reviewer-pic" alt="">
 						<h4 class="subheading reviewer-name"><a href="https://github.com/tilhr/Tilhr-Technology" target="_blank" target="_blank">Web Game</a></h4>
 						<h6 class="subheading muted reviewer-city"><a href="https://github.com/tilhr/Tilhr-Technology" target="_blank" target="_blank"><b>2D Platformer</b></a></h6>
 						<div class="rating">
@@ -259,7 +272,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				</div>
 				<div class="item">
 					<div class="review text-center wow animated fadeInUp">
-						<img src="img/appstores.png" class="reviewer-pic" alt="">
+						<img src="img/app-stores.png" class="reviewer-pic" alt="">
 						<h4 class="subheading reviewer-name"><a href="https://github.com/tilhr/Tilhr-Technology/tree/master/Apps" target="_blank">Mobile App</a></h4>
 						<h6 class="subheading muted reviewer-city"><a href="https://github.com/tilhr/Tilhr-Technology/tree/master/Apps" target="_blank"><b>tilhr.app</b></a></h6>
 						<div class="rating">
@@ -310,22 +323,24 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<div class="row">
 			<div class="col-md-6">
 				<div class="book-preview">
-					<img src="img/iphone.png" class="background-device" alt="">
+					<!-- <img src="img/tilhrTech-icon.png" class="background-device" alt=""> -->
 					<div class="owl-book">
 						<div class="item">
-							<img src="img/tesla.jpeg" alt="">
+							<img src="img/astronaught.png" alt="">
 							<div class="overlay">
-								<a href="img/tesla.jpeg" class="expand" data-lightbox="book-collection" data-title="Tesla"><i class="fa fa-expand"></i></a>
+								<a href="img/astronaught.jpeg" class="expand" data-lightbox="book-collection" data-title="Tesla"><i class="fa fa-expand"></i></a>
 							</div>
 						</div>
 						<div class="item">
-							<img src="img/tilhrTech-icon.png" alt="">
+							<img src="img/live-chat.png" alt="">
 							<div class="overlay">
-								<a href="img/tilhrTech-icon.png" class="expand" data-lightbox="book-collection" data-title="tilhr.tech"><i class="fa fa-expand"></i></a>
+								<a href="img/live-chat.png" class="expand" data-lightbox="book-collection" data-title="tilhr.tech"><i class="fa fa-expand"></i></a>
 							</div>
 						</div>
+						
+						
 
-						<div class="item">
+						<!-- <div class="item">
 							<img src="img/articles.png" alt="">
 							<div class="overlay">
 								<a href="img/articles.png" class="expand" data-lightbox="book-collection" data-title="tilhr.tech"><i class="fa fa-expand"></i></a>
@@ -337,44 +352,50 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 							<div class="overlay">
 								<a href="img/rocket.png" class="expand" data-lightbox="book-collection" data-title="tilhr.tech"><i class="fa fa-expand"></i></a>
 							</div>
-						</div>
-						<div class="item">
+						</div> -->
+						<!-- <div class="item">
 							<img src="img/profile-img.jpeg" alt="">
 							<div class="overlay">
 								<a href="img/profile-img.jpeg" class="expand" data-lightbox="book-collection" data-title="tilhr.tech"><i class="fa fa-expand"></i></a>
 							</div>
 						</div>
+						<div class="item">
+							<img src="img/google-screenshot.png" alt="">
+							<div class="overlay">
+								<a href="img/google-screenshot.png" class="expand" data-lightbox="book-collection" data-title="tilhr.tech"><i class="fa fa-expand"></i></a>
+							</div>
+						</div> -->
 					</div>
 					<div>
 						<h3 class="heading no-margin wow animated fadeInUp">- Learn how to code -</h3><br><br>
-						<h5><b>Best coding languages for begginers</b></h5>
+						<h5><b>Tools for Begginers</b></h5>
 						<ul>
 							<h5>
-								<li>Python</li>  
-								<li>C#</li>
-								<li>Ruby</li>
+								<li><a href="https://www.freecodecamp.org/news/web-development-2020/" target="_blank">Best Web Design tools</a></li>
+								<li><a href="https://www.sublimetext.com/" target="_blank">Sublime Text Editor</a></li> 
+								<li><a href="https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm?hl=en-US">Chrome Developer Extention</a></li>
 							</h5>
 						</ul>
 						<br>
-						<h5><b>Best coding languages for begginers</b></h5>
+						<h5><b>Best coding languages to start with</b></h5>
 						<ul>
 							<h5>
-								<li>Python</li>
-								<li>C#</li>
-								<li>Ruby</li>
-								<li>Ruby</li>
+								<li><a href="https://www.youtube.com/watch?v=_uQrJ0TkZlc" target="_blank">Python</a></li>
+								<li><a href="https://www.youtube.com/watch?v=Mz8l35q2wRE&list=PLXXGfWVPyOQ42G9M7HF80C1vo-64uDOaw" target="_blank">Ruby</a></li>
+								<li><a href="https://www.youtube.com/watch?v=eIrMbAQSU34" target="_blank">Java</a></li>
+								<li><a href="https://www.youtube.com/watch?v=W6NZfCO5SIk" target="_blank">Javascript</a></li>
 							</h5>
 						</ul>
 						<br>
 						<br>
-						<img src="img/profile-img(circle).png" alt="" width=400px>
+						<img src="img/connected(circle).png" alt="" width=400px>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-6">
 				<h2 class="heading wow animated fadeInUp"><b>The Future (.tech)</b></h2>
-				<h4 class="subheading wow animated fadeInUp">We are facing strange times.<br>Times unlike any other. <br>A world ruled by <b>Technology</b>, <b>Clickbait</b>, and corrupted <b>Polititians</b>... <br><br>Why have we been born into a world which <b>Humanity</b> has already exhausted? How has <b>Mass Media</b> corrupted our youth? Why is <b>Elon Musk</b> building flame throwers & projecting Teslas into space? How can we protect ourselves from the future of <b>AI</b>? Why is <b>Virtual Reality</b> on the road to becoming the more favorable reality?<br><br>It is time for humanity to take another look at itself in the black mirror. We must learn from our mistakes and take actions to create a <b>better future</b>. <br><br>The answers are out there. <b>Technology</b> is giving millions of people a better life all around the world. <b>Super Computers</b> are analyzing <b>big data</b> in attempt to solve problems like global warming, famine, & overpopulation. <b>Tech can be used for good.</b><br><br>What will YOU do to take advantage of the prestigious, opportunistic, and open source 4th industrial revolution?<br><br>#genZ</h4>
-				<p class="small wow animated fadeInUp">Join the community. <br>Open a new thread about your thoughts on today's technology in the <b>#techtoday</b> section.<br><b><br>Sign up for the tilhr.tech Newsletter for weekly updates on new technology.</b></p>
+				<h4 class="subheading wow animated fadeInUp">We are facing strange times.<br>Times unlike any other. <br>A world ruled by <b>Technology</b>. <br><br>It is time for humanity to take another look at itself in the <b>black mirror</b>. We must learn from our mistakes of the past and take actions to create a <b>better future</b>. <br><br>The answers are out there. Technology is giving millions of people a <b>better life</b> all around the world. <b>Super Computers</b> are analyzing <b>big data</b> in attempt to solve problems like <b>COVID-19</b>, global warming, famine, & overpopulation. <b>Tech can be used for good.</b><br><br>What will <b>YOU</b> do to take advantage of the prestigious, opportunistic, and open source 4th industrial revolution?<br><br>#genZ</h4>
+				<p class="small wow animated fadeInUp">Join the community. <br>Open a new thread about your thoughts on today's technology in the <b>#techtoday</b> section.<br><b><br>Sign up for the tilhr.tech Newsletter for weekly updates on new technology.</b><br><br><a href="https://tylerrodgers.space" target="_blank">Author: Tyler Rodgers</a><br>January 12, 2020</p>
 			</div>
 		</div>
 	</div>
@@ -450,6 +471,115 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		</div>
 	</div>
 </section>
+<section id="reviews" class="reviews">
+	<div class="container">
+		<div class="row">	
+			<div class="col-sm-6 text-left">
+				<h1 class="heading">Curious about today's technology?</h1>
+				<h4 class="heading">Click on a category to learn more.</h4>
+			</div>
+			<div class="col-sm-6 text-right text-left-mobile">
+				<div class="rate-amount text-right">Community Members: <b>147</b><br><b>Members Online: 16</b>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="owl-reviews">
+				<div class="item">
+					<div class="review text-center wow animated fadeInUp">
+						<img src="img/space.png" class="reviewer-pic" alt="">
+						<h4 class="subheading reviewer-name"><a href="https://aitopics.org/search" target="_blank" target="_blank">Space</a></h4>
+						<h6 class="subheading muted reviewer-city"><a href="https://aitopics.org/search" target="_blank" target="_blank">SpaceX, Mars, Nasa</a></h6>
+						<div class="rating">
+							<span class="rate active"></span>
+							<span class="rate active"></span>
+							<span class="rate active"></span>
+							<span class="rate active"></span>
+							<span class="rate"></span>
+						</div>
+						<p class="small"><a href="https://aitopics.org/search" target="_blank" target="_blank">The final frontier.</a></p>
+					</div>
+				</div>
+				<div class="item">
+					<div class="review text-center wow animated fadeInUp">
+						<img src="img/color.png" class="reviewer-pic" alt="">
+						<h4 class="subheading reviewer-name"><a href="https://aitopics.org/search" target="_blank" target="_blank">Aesthetics</a></h4>
+						<h6 class="subheading muted reviewer-city"><a href="https://aitopics.org/search" target="_blank" target="_blank">Color</a></h6>
+						<div class="rating">
+							<span class="rate active"></span>
+							<span class="rate active"></span>
+							<span class="rate active"></span>
+							<span class="rate active"></span>
+							<span class="rate active"></span>
+						</div>
+						<p class="small"><a href="https://aitopics.org/search" target="_blank" target="_blank">The bond between math & nature.</a></p>
+					</div>
+				</div>
+				<div class="item">
+					<div class="review text-center wow animated fadeInUp">
+						<img src="img/hardware.png" class="reviewer-pic" alt="">
+						<h4 class="subheading reviewer-name"><a href="https://aitopics.org/search" target="_blank" target="_blank">Computer Hardware</a></h4>
+						<h6 class="subheading muted reviewer-city"><a href="https://aitopics.org/search" target="_blank" target="_blank">Intel, NVidia, MSI</a></h6>
+						<div class="rating">
+							<span class="rate active"></span>
+							<span class="rate active"></span>
+							<span class="rate active"></span>
+							<span class="rate active"></span>
+							<span class="rate"></span>
+						</div>
+						<p class="small"><a href="https://aitopics.org/search" target="_blank" target="_blank">What can do the most.</a></p>
+					</div>
+				</div>
+				<div class="item">
+					<div class="review text-center wow animated fadeInUp">
+						<img src="img/vr.png" class="reviewer-pic" alt="">
+						<h4 class="subheading reviewer-name"><a href="https://rubygarage.org/blog/difference-between-ar-vr-mr" target="_blank">VR, MR, AR</a></h4>
+						<h6 class="subheading muted reviewer-city"><a href="https://rubygarage.org/blog/difference-between-ar-vr-mr" target="_blank" target="_blank">Altering Reality- Facebook, Oculus</a></h6>
+						<div class="rating">
+							<span class="rate active"></span>
+							<span class="rate active"></span>
+							<span class="rate active"></span>
+							<span class="rate active"></span>
+							<span class="rate"></span>
+						</div>
+						<p class="small"><a href="https://www.youtube.com/channel/UCLHU9kQenQnprXf1hMzbYAA?sub_confirmation=1" target="_blank">The future of entertainment.</a></p>
+					</div>
+				</div>
+				<div class="item">
+					<div class="review text-center wow animated fadeInUp">
+						<img src="img/ai.png" class="reviewer-pic" alt="">
+						<h4 class="subheading reviewer-name"><a href="https://aitopics.org/search" target="_blank" target="_blank">Ai</a></h4>
+						<h6 class="subheading muted reviewer-city"><a href="https://blog.universal-robots.com/" target="_blank" target="_blank">Robots & stuff.</a></h6>
+						<div class="rating">
+							<span class="rate active"></span>
+							<span class="rate active"></span>
+							<span class="rate active"></span>
+							<span class="rate active"></span>
+							<span class="rate active"></span>
+						</div>
+						<p class="small"><a href="https://rubygarage.org/blog/difference-between-ar-vr-mr" target="_blank" target="_blank">This will blow your mind...</a></p>
+					</div>
+				</div>
+				<div class="item">
+					<div class="review text-center wow animated fadeInUp">
+						<img src="img/game.png" class="reviewer-pic" alt="">
+						<h4 class="subheading reviewer-name"><a href="https://aitopics.org/search" target="_blank" target="_blank">Retro Games</a></h4>
+						<h6 class="subheading muted reviewer-city"><a href="https://aitopics.org/search" target="_blank" target="_blank">NES, RBP, Nintendo </a></h6>
+						<div class="rating">
+							<span class="rate active"></span>
+							<span class="rate active"></span>
+							<span class="rate active"></span>
+							<span class="rate active"></span>
+							<span class="rate"></span>
+						</div>
+						<p class="small"><a href="https://aitopics.org/search" target="_blank" target="_blank">A brief history in time...</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<br><br>
 <footer>
 	<div class="container">
 		<div class="row">
