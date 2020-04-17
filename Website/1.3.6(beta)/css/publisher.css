@@ -250,7 +250,8 @@ header .intro-text {
 	border-width:0px;
 }
 
-.navbar-nav > li > a.btn.btn-cyan {
+.navbar-nav > li > a.btn.
+ {
 	background:white;
 	color:#b7edfc;
 	border-color:#b7edfc;
@@ -331,8 +332,8 @@ section.reviews {
 }
 
 .btn.btn-cyan:hover {
-	background: #96db90;
-	border-color: #96db90;
+	background: #728AD9;
+	border-color: #728AD9;
 }
 
 .btn.btn-white {
