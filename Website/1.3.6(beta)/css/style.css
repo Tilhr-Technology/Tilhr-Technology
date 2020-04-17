@@ -32,6 +32,16 @@
   display: block;
 }
 
+.message {
+  background: #333;
+  background: var(--body-text);
+  color: #ccd8e4;
+  color: var(--body-bg);
+  text-align: center;
+  padding: 1em;
+  display: none;
+}
+
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {background-color: #B7EEFD;}
 
