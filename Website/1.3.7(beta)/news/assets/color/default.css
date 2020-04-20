@@ -1,54 +1,54 @@
 ::-moz-selection {
-  background: #4eb478;
+  background: #728AD9;
   color: #fff;
   text-shadow: none;
 }
 ::selection {
-  background: #4eb478;
+  background: #728AD9;
   color: #fff;
   text-shadow: none;
 }
 
 
 a {
-	color: #4eb478;
+	color: #728AD9;
 }
 
 a:hover {
-	color:#398b5b;
+	color:#70D1F4;
 }
 
 footer .nav-list li a:hover,footer ul.regular li a:hover  {
-	color:#398b5b;
+	color:#70D1F4;
 }
 
 .btn-link:hover {
-  color: #398b5b;
+  color: #70D1F4;
 }
 
 .btn-color {
-  background: #4eb478;
-  *background: #4eb478;
+  background: #728AD9;
+  *background: #728AD9;
 }
 .btn-color:hover,
 .btn-color.active,
 .btn-color.disabled,
 .btn-color[disabled] {
-  background: #398b5b;
-  *background: #398b5b;
+  background: #70D1F4;
+  *background: #70D1F4;
 }
 
 /* portfolio */
 ul.filter li.active a{
-    background: #4eb478;	
+    background: #728AD9;	
 }
 
 ul.filter li a:hover {
-    color: #4eb478;
+    color: #728AD9;
 }
 
 .portfolio-area li:hover .desc {
-    background: #4eb478;	
+    background: #728AD9;	
 }
 
 
@@ -57,25 +57,25 @@ ul.filter li a:hover {
 .icon-square:hover,
 .icon-rounded:hover,
 .icon-circled:hover {
-    background-color: #4eb478;
+    background-color: #728AD9;
 }
 [class^="icon-"].active,
 [class*=" icon-"].active {
-    background-color: #4eb478;
+    background-color: #728AD9;
 }
 
 /* header */
 
 .navbar .nav li.active a {
-	color:#4eb478;	
+	color:#728AD9;	
 }
 
 .navbar .nav li ul.dropdown-menu li a:hover, .navbar .nav li.active ul.dropdown-menu li a:hover  {
-	background:#4eb478;
+	background:#70D1F4;
 	
 }
 .color {
-	background: #4eb478;
+	background: #728AD9;
 	color:#fff;
 }
 
@@ -95,7 +95,7 @@ input[type="search"]:focus,
 input[type="tel"]:focus,
 input[type="color"]:focus,
 .uneditable-input:focus {
-  border-color: #4eb478;
+  border-color: #728AD9;
   outline: 0;
   outline: thin dotted \9;
   /* IE6-9 */
@@ -104,7 +104,7 @@ input[type="color"]:focus,
 
 /* sequence slider */
 .sequence-nav .next:hover,.sequence-nav .prev:hover {
-	background: #4eb478;
+	background: #728AD9;
 }
 
 /* breadcrumb */
@@ -115,38 +115,38 @@ input[type="color"]:focus,
 
 /* accordion */
 .accordion-heading a:hover {
-	color: #4eb478;
+	color: #728AD9;
 }
 .accordion-heading .active{
-	color: #4eb478;
+	color: #728AD9;
 }
 
 /* pricing box */
 .priceBox.special .emphasis {
-  background: #4eb478;
+  background: #728AD9;
 }
 
 /* tagline */
 .tagline {
-	border-bottom:5px solid #4eb478;
+	border-bottom:5px solid #728AD9;
 }
 
 
 /* styled list */
 ul.list.colored li:before {
-	color: #4eb478;
+	color: #728AD9;
 }
 
 
 /* button */
 .btn-link {
-	color: #4eb478;
+	color: #728AD9;
 }
 
 .nav .dropdown-toggle .caret {
   margin-top: 6px;
-  border-top-color: #4eb478;
-  border-bottom-color: #4eb478;
+  border-top-color: #728AD9;
+  border-bottom-color: #728AD9;
 }
 
 
@@ -154,21 +154,21 @@ ul.list.colored li:before {
 /* tabs */
 .tabbable .nav > li > a:hover,
 .tabbable .nav > li > a:focus {
-  	background-color: #4eb478;
+  	background-color: #728AD9;
 }
 .tabbable .nav-tabs > .active > a,
 .tabbable .nav-tabs > .active > a:hover,
 .tabbable .nav-tabs > .active > a:focus {
-  	background-color: #4eb478;
+  	background-color: #728AD9;
 }
 
 /* accordion */
 .accordion-heading:hover .accordion-toggle,
 .accordion-heading:hover .accordion-toggle.inactive {
-	background:#4eb478;
+	background:#728AD9;
 }
 .accordion-heading .accordion-toggle.active {
-	background:#4eb478;
+	background:#728AD9;
 }
 
 
@@ -176,102 +176,102 @@ ul.list.colored li:before {
 /* label */
 .label-orange,
 .badge-orange {
-  background-color: #4eb478;
+  background-color: #728AD9;
 }
 
 
 /* nav */
 .nav-list > .active > a,
 .nav-list > .active > a:hover {
-  background: #4eb478;
+  background: #728AD9;
 }
 
 
 .nav-pills > .active > a,
 .nav-pills > .active > a:hover {
-  background: #4eb478;
+  background: #728AD9;
 }
 
 .nav .dropdown-toggle .caret {
-  border-top-color: #4eb478;
-  border-bottom-color: #4eb478;
+  border-top-color: #728AD9;
+  border-bottom-color: #728AD9;
 }
 
 /* custom progress bar according template skin */
 .progress-orange .bar,
 .progress .bar-orange {
-  background: #4eb478;
+  background: #728AD9;
 }
 
 .progress-orange.progress-striped .bar,
 .progress-striped .bar-orange {
-  background: #4eb478;
+  background: #728AD9;
 }
 
 /* pagination */
 
 .pagination ul li a:hover {
-  background: #4eb478;
-  border-color:#4eb478;
+  background: #728AD9;
+  border-color:#728AD9;
 }
 
 
 /* widget */
 aside .widget ul.cat li a:hover {
-	color: #4eb478;
+	color: #728AD9;
 }
 
 aside .widget ul.recent-posts li a:hover {
-	color: #4eb478;
+	color: #728AD9;
 }
 
 aside .widget ul.tags li a {
-  background: #4eb478;
+  background: #728AD9;
 }
 
 
 /* article */
 
 .entry-body a h5.title:hover {
-	color: #4eb478;
+	color: #728AD9;
 }
 
 article.blog-post .post-heading h3 a:hover {
-	color:#4eb478;
+	color:#728AD9;
 }
 
 article.last-post {
-	background: #4eb478;
+	background: #728AD9;
 }
 
 ul.time-post li.year{
-	border-bottom:1px solid #4eb478;
+	border-bottom:1px solid #728AD9;
 }
 
  /* 404 */
  
 
 .error-body{
-	background:#4eb478;
+	background:#728AD9;
 	padding:20px;
 	text-align:center;
 }
 
 /* footer */
 footer .subfooter {
-	border-top:5px solid #4eb478;
+	border-top:5px solid #728AD9;
 }
 
 /* misc */
 a.thumbnail:hover {
-  border-color: #4eb478;
+  border-color: #728AD9;
 }
 
 ul.filter li.active a:hover,.flex-control-nav li a:hover, .flex-control-nav li a.active{
-	background: #4eb478;
+	background: #728AD9;
 }
 
 .thumbnail h4 a:hover, .thumbnail .meta  span a:hover, ul.recent li h6 a:hover, ul.post-meta li a:hover, .media-body span, .media-body .media-heading a:hover, form label span, article.last-post h5 a:hover{
-	color: #4eb478;
+	color: #728AD9;
 	text-decoration:none;
 }
