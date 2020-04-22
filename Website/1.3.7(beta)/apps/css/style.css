@@ -74,17 +74,17 @@ h1, h2, h3, h4, h5, h6 {
 
 ::-webkit-selection {
   color: #fff;
-  background: #00ADB5;
+  background: #14BDEB;
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #00ADB5;
+  background: #14BDEB;
 }
 
 ::selection {
   color: #fff;
-  background: #00ADB5;
+  background: #14BDEB;
 }
 
 #fh5co-header {
@@ -219,11 +219,11 @@ h1, h2, h3, h4, h5, h6 {
   background-color: transparent;
 }
 #fh5co-header #navbar li.call-to-action a.sign-up {
-  border: 2px solid #00ADB5;
-  background: #00ADB5;
+  border: 2px solid #14BDEB;
+  background: #14BDEB;
 }
 #fh5co-header #navbar li.call-to-action a.sign-up:hover {
-  background: #00ADB5;
+  background: #14BDEB;
   color: #fff;
 }
 #fh5co-header #navbar li.call-to-action a.log-in {
@@ -310,11 +310,11 @@ h1, h2, h3, h4, h5, h6 {
   background-color: transparent;
 }
 #fh5co-header.navbar-fixed-top #navbar li.call-to-action a.sign-up {
-  border: 2px solid #00ADB5;
-  background: #00ADB5;
+  border: 2px solid #14BDEB;
+  background: #14BDEB;
 }
 #fh5co-header.navbar-fixed-top #navbar li.call-to-action a.sign-up:hover {
-  background: #00ADB5;
+  background: #14BDEB;
   color: #fff;
 }
 #fh5co-header.navbar-fixed-top #navbar li.call-to-action a.log-in {
@@ -465,8 +465,8 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 #fh5co-home .text-inner .call-to-action a.download {
-  border: 2px solid #00ADB5;
-  background: #00ADB5;
+  border: 2px solid #14BDEB;
+  background: #14BDEB;
   text-decoration: none !important;
 }
 @media screen and (max-width: 768px) {
@@ -810,7 +810,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 130px;
   display: inline-block;
   position: relative;
-  background: #728AD9;
+  background: #F05D5E;
   display: table;
   margin: 0 auto;
   -webkit-border-radius: 50%;

@@ -224,7 +224,7 @@ header .intro-text {
 	display: block;
 	width:0%;
 	height:3px;
-	background:#b7edfc;
+	background:#EDB7E3;
 	content:' ';
 	margin:0 auto;
 	margin-top:3px;
@@ -568,7 +568,7 @@ footer .social a:before {
 	width:0; height:0;
 	top:50%;
 	left:50%;
-	background:black;
+	background:#F05D5E;
 }
 footer .social a:hover {
 	color:white;
