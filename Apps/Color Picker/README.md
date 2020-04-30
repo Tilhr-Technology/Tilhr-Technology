@@ -1,2 +1,2 @@
 # Tilhr-Technology
-All content coded &amp; used on www.tilhr.tech and all other programming content for Tilhr Technology®
+Open-source color picker featured on www.tilhr.tech/apps/new

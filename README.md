@@ -1,2 +1,5 @@
 # Tilhr-Technology
-All content coded &amp; used on www.tilhr.tech and all other programming content for Tilhr Technology®
+All content coded & used by Tilhr Technology®
+
+ - Latest Website Version
+ - Apps
