@@ -1,6 +1,9 @@
 # Tilhr-Technology
-All content coded & used by Tilhr Technology®
+Open source code created & used by Tilhr Technology®
 
- - Latest Website Version
  - Apps
- - 
+ - Landing Pages
+ - Templates
+ - Tools
+ - Website Versions
+ 
