@@ -1,5 +1,5 @@
 # Tilhr-Technology
-Open source code created & used by Tilhr Technology®
+Open source projects created & used by Tilhr Technology®
 
 <div id="top"></div>
 
@@ -22,7 +22,7 @@ Open source code created & used by Tilhr Technology®
 <br />
 <div align="center">
   <a href="https://github.com/Tilhr-Technology/Tilhr-Technology">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="1.4.3 (beta)/images/icons/logo.png" alt="Logo" width="80" height="80"> 
   </a>
 
   <h3 align="center">Tilhr Technology</h3>
