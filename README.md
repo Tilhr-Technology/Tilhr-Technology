@@ -197,7 +197,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@TM44_](https://twitter.com/TM44_) - support@tilhr.tech
+Tilhr Technology - [@TM44_](https://twitter.com/TM44_) - support@tilhr.tech
 
 Project Link: [https://github.com/Tilhr-Technology/](https://github.com/Tilhr-Technology/)
 
