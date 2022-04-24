@@ -19,7 +19,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/Tilhr-Technology/Tilhr-Technology">
-    <img src="1.4.3 (beta)/images/icons/logo.png" alt="Logo" width="240"> 
+    <img src="1.4.3(beta)/images/icons/logo.png" alt="Logo" width="240"> 
   </a>
 
   <h3 align="center">Tilhr Technology® Official Git Repo</h3>
@@ -238,4 +238,4 @@ Use this space to list resources you find helpful and would like to give credit 
 [license-url]: https://github.com/Tilhr-Technology/Tilhr-Technology/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/company/65430012/
-[product-screenshot]: https://drive.google.com/file/d/1uDYw-YrJED-b3IC2QrOpxbZRgtlSgNo8/view?usp=sharing
+[product-screenshot]: 1.4.3(beta)/images/screenshot.png
