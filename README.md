@@ -28,7 +28,6 @@ Open source projects created & used by Tilhr Technology®
   <h3 align="center">Tilhr Technology</h3>
 
   <p align="center">
-    The official tilhr.tech repo!
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
     <br />
