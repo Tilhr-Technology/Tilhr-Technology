@@ -1,5 +1,4 @@
 # Tilhr-Technology
-Open source projects created & used by Tilhr Technology®
 
 <div id="top"></div>
 
@@ -25,7 +24,7 @@ Open source projects created & used by Tilhr Technology®
     <img src="1.4.3 (beta)/images/icons/logo.png" alt="Logo" width="200"> 
   </a>
 
-  <h3 align="center">Tilhr Technology</h3>
+  <h3 align="center">Official Git Repo of Tilhr Technology®</h3>
 
   <p align="center">
     <br />
