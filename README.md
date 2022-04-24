@@ -19,7 +19,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/Tilhr-Technology/Tilhr-Technology">
-    <img src="1.4.3 (beta)/images/icons/logo.png" alt="Logo" width="200"> 
+    <img src="1.4.3 (beta)/images/icons/logo.png" alt="Logo" width="240"> 
   </a>
 
   <h3 align="center">Official Git Repo of Tilhr Technology®</h3>
