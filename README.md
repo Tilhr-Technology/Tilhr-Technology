@@ -22,7 +22,7 @@
     <img src="1.4.3 (beta)/images/icons/logo.png" alt="Logo" width="240"> 
   </a>
 
-  <h3 align="center">Official Git Repo of Tilhr Technology®</h3>
+  <h3 align="center">Tilhr Technology® Official Git Repo</h3>
 
   <p align="center">
     <br />
