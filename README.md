@@ -1,5 +1,3 @@
-# Tilhr-Technology
-
 <div id="top"></div>
 
 <!-- PROJECT SHIELDS -->
