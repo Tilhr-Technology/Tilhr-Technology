@@ -1,11 +1,26 @@
 /*------------------------------------------------------------------
-Project:  ComingSoon
-Version:  
-Last change:  
-Assigned to:  Bach Le
-Primary use:  
+Project:  Tilhr Technology
+Version:  1.4.1
+Last change:  4.24.22
+Assigned to:  $tilhr
+Primary use:  Landing Page
 -------------------------------------------------------------------*/
 
+
+/*//////////////////////////////////////////////////////////////////
+[ CUSTOM ]*/
+
+.bleu {
+  color: #86BBD8;
+}
+
+a {
+  color: #000;
+}
+
+a:hover {
+  color: #3D3D3D;
+}
 
 
 /*//////////////////////////////////////////////////////////////////
@@ -211,6 +226,10 @@ input.input100 {
   color: #fff;
 }
 
+.s2-txt2:hover {
+  color: #000;
+}
+
 .s2-txt3 {
   font-family: Lato-Regular;
   font-size: 14px;
@@ -320,11 +339,13 @@ input.input100 {
 
 /*//////////////////////////////////////////////////////////////////
 [ Background ]*/
-.bg0 {background-color: #fff;}
-.bg1 {background-color: #57b846;}
+.bg0 {background-color: #000;}
+.bg1 {background-color: #3D3D3D;}
 .bg3 {background-color: #3b5998;}
 .bg4 {background-color: #1da1f2;}
 .bg5 {background-color: #cd201f;}
+
+.bg1 {background-image: url("https://media.giphy.com/media/KZFrf9JusXzmpnPsT6/giphy.gif");}
 
 .bg-img1 {
   background-position: center;
@@ -380,8 +401,8 @@ input.input100 {
   color: #fff;
 }
 .how1:hover {
-  background-color: #555555;
-  color: #fff;
+  background-color: #86BBD8;
+  color: #000;
 }
 
 /*---------------------------------------------*/
@@ -429,7 +450,7 @@ input.input100 {
   right: 100%;
   width: 10000px;
   height: 100%;
-  background-color: #fff;
+  background-color: #000;
   transform-origin: bottom right;
   -webkit-transform: skewX(156deg);
   -moz-transform: skewX(156deg);
@@ -466,11 +487,9 @@ input.input100 {
 .hov-bg0:hover {background-color: #fff;}
 /*---------------------------------------------*/
 .hov1:hover {
-  background-color: #555555;
+  background-color: #000;
+  background-image: url("https://media.giphy.com/media/aRZ4vTsHnyW6A/giphy.gif");
 }
-
-
-
 
 
 
