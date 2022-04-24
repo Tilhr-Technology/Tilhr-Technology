@@ -1,0 +1,123 @@
+.our-pricing-area{
+    .single-pricing{
+        background: #ff4f5b;
+        padding: 78px 73px;
+        position: relative;
+        width: 60%;
+        
+        @media #{$xs}{
+            padding: 57px 23px;
+        }
+        @media #{$sm}{
+            padding: 57px 23px;
+        }
+        @media #{$md}{
+            padding: 57px 23px;
+        }
+        .pricing-caption{
+            .procing-logo{
+                margin-bottom: 40px;
+                width: 100px;
+                height: 100px;
+                background: #fce0d8;
+                line-height: 100px;
+                text-align: center;
+                border-radius: 50%; 
+                margin-left: 42px;
+                img{
+                    display: inline-block;
+                }
+            }
+            span{
+                display: block;
+                color: #fff;
+                font-size: 35px;
+                font-weight: 900;
+                font-family: $font_2;
+                margin-bottom: 30px;
+                padding-bottom: 30px;
+                border-bottom: 1px solid #fff;
+            }
+            .pricing-listing{
+                ul{
+                    li{
+                        color: #ffff;
+                        color: #ffff;
+                        margin: 19px 0;
+                        font-size: 16px;
+                        font-weight: 300;
+                    }
+                }
+            }
+        }
+        .pricing-shape{
+            .pricing1{
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                z-index: 0;
+
+            }
+            .pricing2{
+                position: absolute;
+                top: 0;
+                right: 0;
+                z-index: 0;
+            }
+        }
+    }
+      // Tabs Button Style
+        .nav-tabs .nav-link {
+            border: 0;
+            padding: 15px 43px;
+        }
+        .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+            color:#fff;
+            background: #ff4f5b;
+        }
+        .nav-tabs .nav-item {
+            color: #020230;
+            background: #fce0d8;
+            text-transform: uppercase;
+            display: block;
+            font-size: 16px;
+            border-radius: 0;
+            font-family: $font_1;
+                        &:first-child{
+                border-top-left-radius: 30px;
+                border-bottom-left-radius: 30px;
+            }
+            &:last-child{
+               border-top-right-radius: 30px;
+               border-bottom-right-radius: 30px;
+            }
+        }
+        .nav-tabs {
+            margin-bottom: 31px;
+            padding-bottom: 0px;
+            position: relative;
+            border: 0;
+            display: flex;
+            justify-content:left;
+
+    }
+
+}
+
+// pricing tab Effect
+// #nav-tabContent {
+// 	position: relative;
+// }
+
+// .fade:not(.show) {
+// 	opacity: .5 !important;
+//     display: block !important;
+//     scale: .8;
+//     position: absolute;
+// }
+
+// .tab-content > .active {
+// 	display: block;
+//     transform: scale(1);
+//     transition: .4s;
+// }

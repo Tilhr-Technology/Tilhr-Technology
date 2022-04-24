@@ -1,0 +1,214 @@
+
+.slider-area{
+    margin-top: -1px;
+    position: relative;
+    .hero__caption{
+       overflow: hidden;
+        @media #{$xs}{
+            padding-top: 17px;
+        }
+        position: relative;
+        & span{
+            display: inline-block;
+            color: $heading-color;
+            font-size: 16px;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+        & h1{
+            font-size: 65px;
+            font-weight: 700;
+            color: #fff;
+            font-family: $font_1;
+            line-height: 1.3;
+            margin-bottom: 32px;
+            @media #{$lg}{
+                font-size: 55px;
+                line-height: 1.2;
+            }
+            @media #{$md}{
+                font-size: 50px;
+                line-height: 1.2;
+            }
+            @media #{$sm}{
+                font-size: 29px;
+            }
+            @media #{$xs}{
+                font-size: 29px;
+                line-height: 1.4;
+            }
+        }
+        & p{
+           margin-bottom: 54px;
+           padding-right: 155px;
+            color: #fff;
+           @media #{$md}{
+                margin-bottom: 54px;
+                padding-right: 0px;
+            }
+           @media #{$xs}{
+                margin-bottom: 54px;
+                padding-right: 0px;
+            }
+        }
+    }
+    .hero__img img {
+        position: relative;
+        right: -63px;
+        @media #{$large1}{
+            right: 0px;
+        }
+        @media #{$large1}{
+            right: 0px;
+        }
+
+    }
+    // Slider Shape
+    .slider-shape{
+        .slider-shape1{
+            position: absolute;
+            top: 0;
+            left: 0;
+            
+        }
+        .slider-shape2{
+            position: absolute;
+            top: 0;
+            right:0;
+        }
+        .slider-shape3{
+            position: absolute;
+            left: 67px;
+            bottom: 95px;
+        }
+    }
+}
+    // Another Hero Page
+.slider-area{
+    .hero-cap{
+        @media #{$md}{
+            padding-top: 50px;
+        }
+        @media #{$sm}{
+            padding-top: 50px;
+        }
+        @media #{$xs}{
+            padding-top: 50px;
+        }
+        & h2{
+            color: #fff;
+            font-size: 50px;
+            font-weight: 700;
+            text-transform: capitalize;
+            @media #{$sm}{
+                font-size: 40px;
+            }
+            @media #{$xs}{
+                font-size: 40px;
+            }
+        }
+    }
+}
+.slider-bg{
+    background: #020230;
+}
+
+
+
+// Dot Style
+.dot-style{
+    .slick-dots {
+        text-align: right;
+        bottom: 0;
+        right: 35px;
+        position: absolute;
+        bottom: 14%;
+        li {
+            display: block;
+        }
+        .slick-active button {
+            background: #03a7d2;
+            height: 34px;
+            width: 3px;
+        }
+        button {
+            text-indent: -100000px;
+            height: 20px;
+            width: 3px;
+            border: 0;
+            padding: 0;
+            margin-right: 10px;
+            cursor: pointer;
+            border-radius: 0;
+            margin-bottom: 7px;
+            background: #162e78;
+        }
+
+    }
+}
+
+
+.slider-social {
+    position: absolute;
+	right: -20px;
+	bottom: 29%;
+    transform: rotate(-90deg);
+    @media #{$md}{
+        bottom: 40%;
+    }
+    
+    a {
+        i {
+            color: #45455f;
+            margin-left: 18px;
+            font-size: 14px;
+            transition: all 0.4s ease-out 0s;
+            &:hover{
+                color: #f27420;
+            }
+        }
+    }
+}
+
+.slider-height2{
+    min-height: 300px;
+    background-repeat:no-repeat ;
+    background-position: center center;
+    @media #{$xs}{
+        min-height: 260px;
+    }
+}
+.slider-height {
+    min-height: 1000px;
+    background-repeat:no-repeat ;
+    background-position: center center;
+    background-size: cover;
+    @media #{$laptop}{
+        min-height: 900px;
+    }
+    @media #{$md}{
+        min-height: 600px;
+    }
+    @media #{$sm}{
+        min-height: 600px;
+    }
+    @media #{$xs}{
+        min-height: 600px;
+    }
+}
+
+.slider-height2{
+    height: 530px;
+    @media #{$laptop}{
+        height: 400px;
+    }
+    @media #{$md}{
+        height: 360px;
+    }
+    @media #{$sm}{
+        height: 330px;
+    }
+    @media #{$xs}{
+        height: 330px;
+    }
+}

@@ -1,0 +1,112 @@
+.all-starups-area{
+    display: flex;
+    align-items: center;
+    @media #{$md}{
+      display: block;
+    }
+    @media #{$xs}{
+      display: block;
+    }
+    @media #{$sm}{
+      display: block;
+    }
+    // left Contents
+    .starups{
+        display: flex;
+        align-items: center;
+        width: 50%;
+        // Padding Left
+        padding-left: 19%;
+        @media #{$laptop}{
+            padding-left: 10%;
+            padding-right: 35px;
+        }
+        @media #{$large2}{
+            padding-left: 10%;
+        }
+        @media #{$lg}{
+            padding-left: 8%;
+        }
+        @media #{$sm}{
+            padding: 0 30px;
+            margin-bottom: 60px;
+        }
+        @media #{$xs}{
+            padding: 0 30px;
+            margin-bottom: 60px;
+        }
+        @media #{$md}{
+            width: 100%;
+            padding-right: 8%;
+            margin-bottom: 60px;
+        }
+        @media #{$xs}{
+            width: 100%;
+        }
+        @media #{$sm}{
+            width: 100%;
+        }
+        // content Area
+        .starups-details{
+            padding-right: 117px;
+            @media #{$laptop}{
+                padding-right: 0px;
+            }
+            @media #{$lg}{
+                padding-right: 30px;
+            }
+            @media #{$md}{
+                padding-right: 0px;
+            }
+            @media #{$sm}{
+                padding-right: 0px;
+            }
+            @media #{$xs}{
+                padding-right: 0px;
+            }
+
+            .details-caption{
+                padding-top: 45px;
+                padding-bottom: 35px;
+                @media #{$sm}{
+                    padding-top: 0px;
+                }
+                @media #{$xs}{
+                    padding-top: 0px;
+                }
+                p{
+                    @media #{$xs}{
+                        font-size: 15px;
+                        padding-top: 0px;
+                    }
+                    @media #{$sm}{
+                        font-size: 15px;
+                        padding-top: 0px;
+                    }
+                    @media #{$md}{
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+    }
+    // -Right Contents
+    .starups-img{
+        width: 50%;
+        img{
+            width: 100%;
+        }
+        @media #{$md}{
+            width: 80%;
+            padding-left: 128px;
+        }
+        @media #{$sm}{
+            width: 90%;
+            padding-left: 50px;
+        }
+        @media #{$xs}{
+            width: 90%;
+            padding-left: 50px;
+        }
+    }
+}

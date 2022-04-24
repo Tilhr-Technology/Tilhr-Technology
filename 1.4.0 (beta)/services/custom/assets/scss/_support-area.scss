@@ -1,0 +1,58 @@
+.support-area{
+    @media #{$xs}{
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .support-caption{
+        .support-details{
+            color: #fff;
+            padding: 30px 10px 30px 0; 
+        }
+    }
+
+
+    .support-number{
+        .single-contact{
+            background: #eb566c;
+            width: 165px;
+            height: 136px;
+            display: inline-block;
+            border-radius: 10px;
+            margin: 0 15px;
+            @media #{$sm}{
+                margin-bottom:30px;
+                width: 132px;
+                height: 130px;
+            }
+            @media #{$xs}{
+                margin-bottom:30px;
+                width: 132px;
+                height: 130px;
+            }
+            .contact-icon{
+                margin-bottom: 16px;
+                padding-top: 24px;
+                i{
+                    color: #fff;
+                    font: size 18px;
+                    width: 50px;
+                    height: 50px;
+                    background: #fce0d8;
+                    line-height: 50px;
+                    text-align: center;
+                    border-radius: 50%;
+                    background: #ff6b81;
+                }
+                
+            }
+            .contact-number{
+                span{
+                    color: #fff;
+                    font-weight: 700;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+
+}
