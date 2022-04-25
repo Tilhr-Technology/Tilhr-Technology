@@ -1,9 +1,11 @@
 /*------------------------------------------------------------------
-Project:  Tilhr Technology
-Version:  1.4.1
-Last change:  4.24.22
-Assigned to:  $tilhr
-Primary use:  Landing Page
+
+    Tilhr Technology - Home
+
+    Website:        https://tilhr.tech
+    Email:          tilhr@tilhr.tech
+    Twitter:        http://twitter.com/TM44_
+
 -------------------------------------------------------------------*/
 
 
@@ -15,13 +17,21 @@ Primary use:  Landing Page
 }
 
 a {
-  color: #000;
+  color: #193E4D;
+  text-decoration: none;
 }
 
 a:hover {
-  color: #3D3D3D;
+  color: #193E4D;
 }
 
+::-moz-selection { /* Code for Firefox */
+  color: #5c4ebc;
+}
+
+::selection {
+  color: #5c4ebc;
+}
 
 /*//////////////////////////////////////////////////////////////////
 [ FONT ]*/
@@ -272,9 +282,11 @@ input.input100 {
 /*---------------------------------------------*/
 .l2-txt1 {
   font-family: Lato-Bold;
-  font-size: 20px;
+  font-size: 30px;
   line-height: 1;
-  color: #5c4ebc;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: url("https://media.giphy.com/media/3ohhwEZqxzKbNUHzji/giphy.gif");
 }
 
 
@@ -340,9 +352,9 @@ input.input100 {
 /*//////////////////////////////////////////////////////////////////
 [ Background ]*/
 .bg0 {background-color: #000;}
-.bg1 {background-color: #3D3D3D;}
-.bg3 {background-color: #3b5998;}
-.bg4 {background-color: #1da1f2;}
+.bg1 {background-color: #86BBD8;}
+.bg3 {background-color: #000;}
+.bg4 {background-color: #86BBD8;}
 .bg5 {background-color: #cd201f;}
 
 .bg1 {background-image: url("https://media.giphy.com/media/KZFrf9JusXzmpnPsT6/giphy.gif");}
@@ -401,7 +413,7 @@ input.input100 {
   color: #fff;
 }
 .how1:hover {
-  background-color: #86BBD8;
+  background-image: url("https://media.giphy.com/media/3ohhwEZqxzKbNUHzji/giphy.gif");
   color: #000;
 }
 
