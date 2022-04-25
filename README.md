@@ -21,7 +21,7 @@
     <img src="1.4.3(beta)/images/icons/favicon.png" alt="Logo" width="100"> 
   </a>
 
-  <h3 align="center">Tilhr Technology® Official Git Repo</h3>
+  <h3 align="center">Tilhr Technology® Official Repo</h3>
 
   <p align="center">
     <br />
