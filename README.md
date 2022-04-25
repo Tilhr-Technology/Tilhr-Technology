@@ -18,7 +18,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/Tilhr-Technology/Tilhr-Technology">
-    <img src="1.4.3(beta)/images/icons/favicon.png" alt="Logo" width="100"> 
+    <img src="1.4.3(beta)/images/icons/favicon.png" alt="Logo" width="80"> 
   </a>
 
   <h3 align="center">Tilhr Technology® Official Repo</h3>
