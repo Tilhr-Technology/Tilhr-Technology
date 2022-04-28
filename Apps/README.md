@@ -1,2 +1,2 @@
 # Tilhr-Technology
-All open source Apps created by www.tilhr.tech
+Open source applications by www.tilhr.tech
